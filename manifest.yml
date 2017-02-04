@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MB-red
+  host: MB-red
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-2c
+  - MB-red-cloudantNoSQLDB
